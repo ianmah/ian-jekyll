@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "ShoutGamers.ttv"
+slug: shoutgamers-ttv
+date:   2018-01-19 00:14:43 -0800
+tags: [Node.js, Twitch API]
+description: Personal Project
+url: "https://twitch.com/ShoutGamers"
+prompt: It's hard to be discovered on Twitch.tv
+source:
+---
+
+Used automation to assist user's growth
+on Twitch. Implemented a chatbot and custom chat
+commands, incentivized and gamified channel
+exploration to solve the toughest aspect of
+livestreaming: discovery. 5.8k followers.
