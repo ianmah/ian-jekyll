@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "mysoil.space"
+slug: ichooseyou
+date:   2019-01-24 00:14:43 -0800
+tags: [React, Firebase, Microsoft Weather API]
+description: Hackathon Project
+url: "mysoil.space"
+prompt: Encourage gardening in urban areas
+source:
+---
+
+Social media, for community gardens. Track your
+plants and see what other people are growing. Using
+the Microsoft Weather API and our Arduino sensor that
+detects soil moisture, set a watering schedule and
+set other tasks for community garden members.

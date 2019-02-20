@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Platformy"
+slug: ichooseyou
+date:   2019-01-24 00:14:43 -0800
+tags: [Node.js, Pixi.js, Socket.IO]
+description: WIP Personal Project
+url: "mysoil.space"
+prompt: Make a multiplayer game
+source:
+---
+
+A simple 2d platformer, with an emphasis on
+multi-platform support. Multiplayer handled using
+web sockets.

@@ -10,8 +10,7 @@ prompt: It's hard to be discovered on Twitch.tv
 source:
 ---
 
-Used automation to assist user's growth
-on Twitch. Implemented a chatbot and custom chat
-commands, incentivized and gamified channel
-exploration to solve the toughest aspect of
-livestreaming: discovery. 5.8k followers.
+Chatbot and custom chat commands to assist and
+automate growth on Twitch. Incentivized and
+gamified channel exploration to solve the toughest
+aspect of livestreaming: discovery. 5.8k followers.
