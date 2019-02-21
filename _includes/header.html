@@ -2,8 +2,12 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- assign sorted_paths = default_paths | sort: "order" -%}
+    {%- assign page_paths = site.header_pages | default: sorted_paths | sort: "order" -%}
+    <div class="site-title">
+      <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -20,9 +24,10 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="#{{ my_page.title }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+            <a class="page-link" href="http://ianmah.com/photography/" target="_blank">Photography</a>
         </div>
       </nav>
     {%- endif -%}
