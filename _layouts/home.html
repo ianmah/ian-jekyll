@@ -17,10 +17,15 @@ layout: default
 </div>
 
 <div>
+  {% assign i = 0 %}
   {%- for page in site.pages -%}
     {%- if page.title -%}
+    {% assign i = i | plus:1 %}
     <div class="home">
-      <h2 class="post-list-heading">{{ page.title | escape }}</h2>
+      <div style="clear: both">
+        <h2 class="post-list-counter" style="float: left">0{{i}}.</h2>
+        <h2 class="post-list-heading" style="float: right">{{ page.title | escape }}</h2>
+      </div>
       {% include_relative {{page.title}}.html %}
     </div>
     {%- endif -%}

@@ -80,15 +80,13 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.post-list-heading::before {
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
+.post-list-counter {
     margin-right: 10px;
+    line-height: 1.68em;
     font-family: "SF Mono", monospace;
-    // font-weight: normal;
+    font-weight: bold;
     color: var(--main-color);
     font-size: 25px;
-    position: relative;
 }
 
 .post-list-heading {
