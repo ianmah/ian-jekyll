@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Platformy"
-slug: ichooseyou
+slug: platformy
 date:   2019-01-24 00:14:43 -0800
 tags: [Node.js, Pixi.js, Socket.IO]
 description: WIP Personal Project
